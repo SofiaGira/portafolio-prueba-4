@@ -1,12 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Test</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Sofia Portfolio</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body style="background:black; color:white;">
+<body>
 
-  <h1>Hello World</h1>
+  <!-- NAVBAR -->
+  <nav>
+    <h2 class="logo">sofia.</h2>
+
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="hero-text">
+      <p class="available">Available for new projects</p>
+
+      <h1>
+        Hey!, I am <span>Sofia</span>
+      </h1>
+
+      <h2>Product Designer</h2>
+
+      <p class="description">
+        I craft beautiful digital experiences with creativity and innovation.
+      </p>
+
+      <div class="buttons">
+        <button>View My Work</button>
+        <button class="outline">Contact Me</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+
+    <div class="about-text">
+      <h2>About Me</h2>
+
+      <p>
+        I'm a designer passionate about creating meaningful experiences.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="project-grid">
+
+      <div class="card">
+        <img src="images/project1.jpg" alt="Project 1">
+
+        <div class="card-content">
+
+          <h3>Chat App</h3>
+
+          <p>
+            Messaging app with modern interface.
+          </p>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JS</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+
+    <h2>Let's Work Together</h2>
+
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+
+      <button>Send Message</button>
+    </form>
+
+  </section>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
